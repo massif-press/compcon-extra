@@ -124,5 +124,56 @@
     "aptitude": {
       "melee": 1
     }
+  },
+  {
+    "id": "fusionrifle",
+    "name": "Fusion Rifle",
+    "mount": "Main",
+    "type": "Rifle",
+    "damage": [{
+      "type": "energy",
+      "val": "1-6"
+    }],
+    "range": [{
+      "type": "range",
+      "val": 6
+    }],
+    "tags": [],
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 1,
+    "effect": "This weapon deals damage equal to its range from the target instead of rolling for damage, up to a maximum of 6 damage.",
+    "description": "Bootstrapped from ore mining laser weaponry, this weapon’s deadly glare becomes more effective the longer distance the beam has to focus.",
+    "data_type": "weapon",
+    "aptitude": {
+      "melee": 1
+    }
+  },
+  {
+    "id": "slagcannon",
+    "name": "Slag Cannon",
+    "mount": "Main",
+    "type": "Cannon",
+    "damage": [{
+      "type": "energy",
+      "val": "1d6"
+    }],
+    "range": [{
+      "type": "range",
+      "val": 8
+    }],
+    "tags": [{
+      "id": "heatself",
+      "val": 1
+    }],
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 2,
+    "effect": "Hit or miss, after this weapon attacks a target, if your target is on the ground, place a size 1 piece of terrain in a free adjacent space next to them (10 HP, evasion 5).",
+    "description": "Dripping with molten fury, this carefully rigged weapon barely functions but bought many Barony overseers a painful death covered in boiling ore slag.",
+    "data_type": "weapon",
+    "aptitude": {
+      "melee": 1
+    }
   }
 ]

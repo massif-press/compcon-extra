@@ -130,5 +130,51 @@
     },
     "data_type": "frame",
     "aptitude": {}
+  },
+  {
+    "id": "kobold",
+    "source": "HORUS",
+    "name": "KOBOLD",
+    "mechtype": "Fabricator",
+    "description": "The Kobold p-g made its first appearance among Ungrateful partisans serving the House of Dust, the pattern a clever suite of hardware and software able to be applied to many kinds of mining and heavy industry mechs. The steaming, shuddering final result is an ugly affair, but contains powerful liturgicode meant to unlock its reactor. Custom built to combat Barony suppression forces, the desperate workers who built the first slapdash kobolds found their reactors and factory tools repurposed to deadly effect: able to melt and extrude raw material into a molten polymer that could be used for both barriers and bombs.",
+    "mounts": [
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": 0.5,
+      "armor": 1,
+      "hp": 6,
+      "evasion": 10,
+      "edef": 10,
+      "heatcap": 6,
+      "repcap": 2,
+      "sensor_range": 15,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 4,
+      "sp": 8
+    },
+    "traits": [{
+        "name": "Mimic Carapace",
+        "description": "If the KOBOLD starts its turn adjacent to a piece of terrain or hard cover size 1 or larger it becomes invisible while it remains adjacent to that terrain or cover. This invisibility breaks if it attacks or takes damage."
+      },
+      {
+        "name": "Slag Spray",
+        "description": "Once per round as a quick action, the KOBOLD can create a size 1 piece of terrain (10 HP, evasion 5) within a free space within range 3 and line of sight of it. The semi-molten polymer grants hard cover."
+      },
+      {
+        "name": "Exposed Reactor",
+        "description": "The KOBOLD gets +1 difficulty on engineering checks and saves."
+      }
+    ],
+    "core_system": {
+      "name": "Terraform",
+      "description": "Screeching and venting steam, the KOBOLD digs into the earth itself, reshaping it in its image.",
+      "active_name": "Terraform Active",
+      "effect": "The Kobold extrudes a massive amount of polymer and creates up to 10 size 1 cubes of terrain within free, open spaces within range 5 of it. These cubes can be separate or connected, and stacked up to 5 spaces high. If connected, they form a contiguous surface and can potentially block line of sight. They grant soft cover the turn they are extruded, each section is independently destructible, has evasion 5, and 10 HP. At the start of the Kobold’s next turn, they harden into hard cover and each size 1 section gains +10 HP (it keeps any damage it still had).",
+      "tags": ["fullaction"]
+    },
+    "data_type": "frame",
+    "aptitude": {}
   }
 ]

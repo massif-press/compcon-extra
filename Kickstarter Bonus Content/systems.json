@@ -233,5 +233,75 @@
       "support": 1,
       "repair": 0
     }
+  }, 
+  {
+    "id": "forgeclamps",
+    "name": "Forge Clamps",
+    "type": "System",
+    "sp": 1,
+    "tags": [],
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 1,
+    "effect": "Your mech is immune to knock back and prone while it is adjacent to a piece of terrain or hard cover size 1 or larger.",
+    "description": "Repurposed from polycrete foundry tongs, these clamps can be used to dig into the terrain, sinking pitons deep into the rock.",
+    "data_type": "system",
+    "aptitude": {
+      "support": 1,
+      "repair": 0
+    }
+  }, 
+  {
+    "id": "seismicpulse",
+    "name": "Seismic Pulse",
+    "type": "System",
+    "sp": 2,
+    "tags": [{
+      "id": "fullaction"
+    }],
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 2,
+    "effect": "Draw a line 10 area from your mech. Actors caught in the area, allied or enemy, must pass a hull save or be knocked prone. All objects and pieces of terrain in the area take 10 AP energy damage, no roll required. If a piece of terrain or object is destroyed this way, it explodes in a burst 1 area. Actors can only be affected by one explosion but must pass an agility save or take 2d6 explosive damage, and half on a successful check.",
+    "description": "A deadly weapon, created from simple tools. The perfect catalyst for insurrection.",
+    "data_type": "system",
+    "aptitude": {
+      "support": 1,
+      "repair": 0
+    }
+  }, 
+  {
+    "id": "purifyingcode",
+    "name": "Purifying Code",
+    "type": "System",
+    "sp": 2,
+    "tags": [],
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 3,
+    "effect": "Gain the following options for invasion. Each are mutually exclusive (a target cannot be affected by both). A target is aware of their effects.<br><br>FLAW_plus</b>: On a successful invasion, this implants the target’s reactor with a memetic virus that requires proximity to clear. At the start of your next turn, if your target is not adjacent to another character (allied or enemy) or piece of terrain size 1 or larger, the virus catalyzes and they take 2d6 AP explosive damage. The effect then ends. <br><b>FLAW_minus</b>: On a successful invasion, this implants the target’s reactor with a memetic virus that reacts to proximity. At the start of your next turn, if your target is adjacent to another character or piece of terrain size 1 or larger, the virus catalyzes and it takes 2d6 AP explosive damage. The effect then ends.",
+    "description": "The key to the KOBOLD’s creation - a deceptively simple code form unlocking the reactor safety limiters in civilian mining mechs. An addendum in the code simply says, “From Dog”",
+    "data_type": "system",
+    "aptitude": {
+      "support": 1,
+      "repair": 0
+    }
+  }, 
+  {
+    "id": "immolate",
+    "name": "IMMOLATE",
+    "type": "System",
+    "sp": 2,
+    "tags": [],
+    "source": "HORUS",
+    "license": "KOBOLD",
+    "license_level": 3,
+    "effect": "Gain the following options for invasion: <br><br>Eject Slag</b>: On hit, the target’s reactor ejects burning liquid in a burst 2 area around it. The space the target physically occupies is not affected. The liquid is difficult terrain, and characters that start their turn in it or enter it for the first time on their turns must pass an engineering save or take 1d3 heat and 1d3 burn. It cools at the end of your next turn, dissipating. <br><b>Molten Puncture</b>: On hit, until the end of its next turn, for each space the target moves voluntarily, it takes 2 Burn.",
+    "description": "The Kobold p-g code is unique in that it can be injected into existing civilian mining mechs, causing them to extrude a polymer casing and re-form on the spot. The process skips printers entirely but often goes incredibly awry, with nascent KOBOLDs turning into molten slag, incinerating their would-be wielders.",
+    "data_type": "system",
+    "aptitude": {
+      "support": 1,
+      "repair": 0
+    }
   }
 ]
