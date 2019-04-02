@@ -1,0 +1,30 @@
+[
+  {
+    "id": "",
+    "type": "weapon",
+    "name": "",
+    "tags": [],
+    "range": [],
+    "damage": [],
+    "description": ""
+  },
+  {
+    "id": "",
+    "type": "armor",
+    "name": "",
+    "hp_bonus": 0,
+    "speed": 0,
+    "speed_bonus": 0,
+    "armor": 0,
+    "edef": 0,
+    "evasion": 0,
+    "evasion_bonus": 0,
+    "description": ""
+  },
+  {
+    "id": "",
+    "type": "gear",
+    "name": "",
+    "description": ""
+  }
+]

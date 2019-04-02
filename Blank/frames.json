@@ -1,0 +1,48 @@
+[
+  {
+    "id": "",
+    "source": "",
+    "name": "",
+    "mechtype": "",
+    "description": "",
+    "mounts" : [],
+    "stats": {
+      "size": 0,
+      "armor": 0,
+      "hp": 0,
+      "evasion": 0,
+      "edef": 0,
+      "heatcap": 0,
+      "repcap": 0,
+      "sensor_range": 0,
+      "tech_attack": 0,
+      "save": 0,
+      "speed": 0,
+      "sp": 0
+    },
+    "traits": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "core_system": {
+      "name": "",
+      "description": "",
+      "integrated": {
+        "name": "",
+        "mount": "",
+        "type": "",
+        "range": [],
+        "damage": [],
+        "effect": ""
+      },
+      "passive": "",
+      "active_name": "",
+      "effect": "",
+      "tags": []
+    },
+    "data_type": "frame",
+    "aptitude": {}
+  }
+]
