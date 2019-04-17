@@ -80,7 +80,7 @@
       "passive": "The Sunzi has a blink anchor, a deployable size 1/2 object with 5 evasion, 20 HP, and limited (3) charges. It can be deployed and activated or picked up from a free adjacent space on the ground or any relatively flat surface as a quick action by any character (it’s only active when deployed). When any character teleports within line of sight of the Sunzi, it can spend a reaction and a charge to change the end point of the teleport to free adjacent space to the blink anchor instead of the teleporting character’s original target.",
       "active_name": "Art of War",
       "effect": "When you take this protocol, gain limited (6) charges until the rest of this scene. You can expend a charge to choose any hostile or allied character in sensor range and line of sight as a reaction to the start of their turn and teleport that character up to 5 spaces in any direction, as long as they end in a free space that they can stand on.",
-      "tags": ["protocol"]
+      "tags": [{"id": "protocol"}]
     },
     "data_type": "frame",
     "aptitude": {}
@@ -128,7 +128,7 @@
       "description": "The ATLAS extends needles into your musculature and ancillary nervous system, melding flesh, machine, and the memory of all who wore it before you.",
       "active_name": "Final Hunt",
       "effect": "When you take this action, until the end of the current scene:<ul><li>The Atlas 's movement from any source (moves, boosts, movement from systems or talents) increases by 1.</li><li>It always benefits from soft cover, no matter where it is.</li><li>The Atlas can hide even in the open, without requiring cover(the only way to reveal it is for an actor to search for it or it if breaks hiding the normal way).</li><li>Once per round, when the Atlas makes an attack from hiding, its target must pass a hull save or be knocked prone.</li></ul>",
-      "tags": ["quickaction"]
+      "tags": [{"id": "quickaction"}]
     },
     "data_type": "frame",
     "aptitude": {}
@@ -174,7 +174,7 @@
       "description": "Screeching and venting steam, the KOBOLD digs into the earth itself, reshaping it in its image.",
       "active_name": "Terraform Active",
       "effect": "The Kobold extrudes a massive amount of polymer and creates up to 10 size 1 cubes of terrain within free, open spaces within range 5 of it. These cubes can be separate or connected, and stacked up to 5 spaces high. If connected, they form a contiguous surface and can potentially block line of sight. They grant soft cover the turn they are extruded, each section is independently destructible, has evasion 5, and 10 HP. At the start of the Kobold’s next turn, they harden into hard cover and each size 1 section gains +10 HP (it keeps any damage it still had).",
-      "tags": ["fullaction"]
+      "tags": [{"id": "fullaction"}]
     },
     "data_type": "frame",
     "aptitude": {}
