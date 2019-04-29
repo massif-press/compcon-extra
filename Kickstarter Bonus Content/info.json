@@ -1,8 +1,8 @@
 {
-  "name": "Kickstarter Bonus Content",
+  "name": "Long Rim",
   "author": "Massif Press",
   "version": "1.0",
-  "description": "Licensed marked as upcoming Kickstarter content, released on the official LANCER Discord",
+  "description": "Official LANCER Kickstarter bonus licenses",
   "website": "https://massif-press.itch.io/lancer-core-book",
-  "active": false
+  "active": true
 }

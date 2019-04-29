@@ -106,9 +106,7 @@
       "tech_attack": -2,
       "save": 11,
       "speed": 6,
-      "sp": 6,
-      "structuremod": -1,
-      "stressmod": -1
+      "sp": 6
     },
     "traits": [{
         "name": "Giantkiller",
